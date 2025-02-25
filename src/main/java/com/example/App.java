@@ -13,5 +13,19 @@ public class App {
 
         // TODO: Add further interactive or command-line functionality as needed
     }
+
+// create a method to check if username is more than 8 chars
+
+//git pull
+    // feature branch
+
+    public boolean checkUsername(String username) {
+        if (username.length() > 8) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 }
 
